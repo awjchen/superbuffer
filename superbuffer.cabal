@@ -29,7 +29,7 @@ library
       cbits/superbuffer.c
   build-depends:
       base >= 4.8 && < 5
-    , bytestring < 0.11
+    , bytestring < 0.12
   exposed-modules:
       Data.ByteString.SuperBuffer
       Data.ByteString.SuperBuffer.Pure
@@ -46,9 +46,9 @@ test-suite spec
   cpp-options: -DTest
   build-depends:
       base >= 4.8 && < 5
-    , bytestring < 0.11
-    , HTF < 0.14
-    , QuickCheck < 2.13
+    , bytestring < 0.12
+    , HTF < 0.15
+    , QuickCheck < 2.15
     , async
     , superbuffer
   default-language: Haskell2010
